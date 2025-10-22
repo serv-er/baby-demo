@@ -1,11 +1,12 @@
+// src/App.js
 import React from 'react';
-import './App.css';
-import ARScene from './ARScene';
+import './App.css'; // Your standard CSS
+import ZapparARComponent from './ZapparArComponent';
 
 function App() {
   return (
     <div className="App">
-      <ARScene />
+      <ZapparARComponent />
     </div>
   );
 }
